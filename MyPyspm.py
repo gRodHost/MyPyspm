@@ -6,7 +6,7 @@ Choose three random number to associate with a site,
 use those numbers to print items from tuple and have your strong password.
 """
 
-""" <<Remove these quotes and all text within up until -- marker
+"""  <<Remove these quotes and all text within up until -- marker
 Assign your own values for desired password strength.
 Remeber to add more items in print section.
 ex: print(items[], items[])  use comma and repeat itmes[] desired
