@@ -7,7 +7,7 @@ When prompted for input use only numbers 0-9. Any other input will result in err
 
 Created By Rodney Maynard. No licnese or copyright. Meant to be free software that can be used, distributed, shared, or modified as you please. 
 
-The rest of the readme is the actual code if you'd like to skim through while you're here reading this. You could just copy from here and paste in a text editor then save as a .py file. Once again I have to urge to modify values in list for your security. Hope everyone enjoys my attempt at creating my ideal password manager. 
+The rest of the readme is the actual code. You could just copy from here and paste in a text editor then save as a .py file. Once again I have to urge to modify values in list for your security. Hope everyone enjoys my attempt at creating my ideal password manager. 
 
 Thanks,
 Rodney
