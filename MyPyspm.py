@@ -35,7 +35,7 @@ print(items[5], items[9], items[7])
 
 Your password for eggedspam.dotcom is b99 h2 kLm
 remove spaces and copy paste
-You can think of you password for this site as 597 and simply
+You can think of your password for this site as 597 and simply
 run the program anytime you log in.
 It's safer to enter your secret number into the program rather than writing down
 the actual password or saving it to a file.
@@ -60,5 +60,5 @@ Here is a template for creating a 15 digit password from three letters
 !!Modify each item in some way for your security!!
 To use this put a number value in each (items[]), remove triple quotes around
 this template. Once a password has been created for a site using this do not
-change values unless you have password recover options.
+change values unless you have password recovery options.
 """
