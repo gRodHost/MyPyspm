@@ -20,9 +20,9 @@ items = ("", "", "", "", "", "", "", "", "", "",)
 
 a = input("What numbers do you want to use?")
 
-b = input("Second number")
+b = input("Second number?")
 
-c = input("Third number")
+c = input("Third number?")
 
 
 print (items[int(a)] + items[int(b)] + items[int(c)])
@@ -36,9 +36,9 @@ items = ("x3#1c", "b7^X4", "jM88k", "c2^vB", "l!19d", "hB7&n", "v4$Ka",
 
 a = input("First number you want to use?")
 
-b = input("Second number")
+b = input("Second number?")
 
-c = input("Third number")
+c = input("Third number?")
 
 print (items[int(a)] + items[int(b)] + items[int(c)])
 
