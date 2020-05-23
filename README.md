@@ -19,8 +19,14 @@ Blank template
 items = ("", "", "", "", "", "", "", "", "", "",)
 
 a = input("What numbers do you want to use?")
+
+
 b = input("Second number")
+
+
 c = input("Third number")
+
+
 print (items[int(a)] + items[int(b)] + items[int(c)])
 
 
