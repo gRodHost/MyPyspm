@@ -1,9 +1,10 @@
 """ My Py Strong Password Maker.
-Take a string of numbers and use it to create a strong password.
-inside is a template of a tuple which you can modify.
-Add tuple items such as "Cv7*x" for numbers 0-9
-Choose three random number to associate with a site,
-use those numbers to print items from tuple and have your strong password.
+If you are familar with python, please skip to the bottom to "grab and go" the needed code.
+Comments and exmples are intended for people less familar.
+
+This file contains a blank template.
+An exmaple template with instructions. 
+And finally in the only uncommented space is the actual code.
 """
 
 """  <<Remove these quotes and all text within up until -- marker
@@ -16,8 +17,8 @@ amount of times --
 items = ("", "", "", "", "", "", "", "", "", "",)
 
 a = input("What numbers do you want to use?")
-b = input("Second number")
-c = input("Third number")
+b = input("Second number?")
+c = input("Third number?")
 print (items[int(a)] + items[int(b)] + items[int(c)]) 
 
 -- Also remove these quotes to use  >>>"""
@@ -28,8 +29,8 @@ called eggedspam.dotcom
 items = ("Vb@", "1X", "A8n", "x9*", "c!k", "b99", "hbOr", "kLm", "a#4", "h2",)
 
 a = input("First number you want to use?") = 5
-b = input("Second number") = 7
-c = input("Third number") = 9
+b = input("Second number?") = 7
+c = input("Third number?") = 9
 
 print (items[int(a)] + items[int(b)] + items[int(c)]) 
 
@@ -47,8 +48,8 @@ items = ("x3#1c", "b7^X4", "jM88k", "c2^vB", "l!19d", "hB7&n", "v4$Ka",
  "mIkL7", "i8N4a", "vVb8&",)
 
 a = input("First number you want to use?")
-b = input("Second number")
-c = input("Third number")
+b = input("Second number?")
+c = input("Third number?")
 
 print (items[int(a)] + items[int(b)] + items[int(c)]) 
 
