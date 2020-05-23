@@ -3,7 +3,7 @@ Deterministic password generator. Meant to be an alternative to password manager
 
 **I strongly recommend opening file in a text editor and making changes to items in list.
 
-**Even with making these chages this is not secure. If someone gets access to the file you use your, passwords are at risk.**
+**Even with making these chages this is not secure. If someone gets access to the file you use, your passwords are at risk.**
  
 You can do this by opening file in a text editor of your choice. Do not change after you have used it to create a password for a site unless you have password recovery/reset options from that site. Default template generates a 15 character password from input of three numbers. 
 
