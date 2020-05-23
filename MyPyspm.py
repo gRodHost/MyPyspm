@@ -18,10 +18,7 @@ items = ("", "", "", "", "", "", "", "", "", "",)
 a = input("What numbers do you want to use?")
 b = input("Second number")
 c = input("Third number")
-print (items[int(a)])
-print (items[int(b)])
-print (items[int(c)])
-
+print (items[int(a)] + items[int(b)] + items[int(c)]) 
 
 -- Also remove these quotes to use  >>>"""
 
@@ -30,11 +27,14 @@ called eggedspam.dotcom
 
 items = ("Vb@", "1X", "A8n", "x9*", "c!k", "b99", "hbOr", "kLm", "a#4", "h2",)
 
-print(items[5], items[9], items[7])
+a = input("First number you want to use?") = 5
+b = input("Second number") = 7
+c = input("Third number") = 9
+
+print (items[int(a)] + items[int(b)] + items[int(c)]) 
 
 
-Your password for eggedspam.dotcom is b99 h2 kLm
-remove spaces and copy paste
+Your password for eggedspam.dotcom is b99h2kLm
 You can think of your password for this site as 597 and simply
 run the program anytime you log in.
 It's safer to enter your secret number into the program rather than writing down
@@ -49,16 +49,16 @@ items = ("x3#1c", "b7^X4", "jM88k", "c2^vB", "l!19d", "hB7&n", "v4$Ka",
 a = input("First number you want to use?")
 b = input("Second number")
 c = input("Third number")
-print (items[int(a)])
-print (items[int(b)])
-print (items[int(c)])
+
+print (items[int(a)] + items[int(b)] + items[int(c)]) 
 
 
 
 """
 Here is a template for creating a 15 digit password from three letters
 !!Modify each item in some way for your security!!
-To use this put a number value in each (items[]), remove triple quotes around
-this template. Once a password has been created for a site using this do not
+To use this template remove triple quotes around
+this template. Run the file and follow prompts.
+Once a password has been created for a site using this do not
 change values unless you have password recovery options.
 """
