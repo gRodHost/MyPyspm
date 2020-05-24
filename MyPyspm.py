@@ -47,12 +47,20 @@ the actual password or saving it to a file.
 items = ("x3#1c", "b7^X4", "jM88k", "c2^vB", "l!19d", "hB7&n", "v4$Ka",
  "mIkL7", "i8N4a", "vVb8&",)
 
-a = input("First number you want to use?")
-b = input("Second number?")
-c = input("Third number?")
-
-print (items[int(a)] + items[int(b)] + items[int(c)]) 
-
+while True:
+    choiceA = input("Would you want to access a random password: (Y/N) ")
+    if choiceA == "Y" or choiceA == "y":
+        print ("Enter your 3 Digit pin: ")
+        a = input("First number you want to use?: ")
+        b = input("Second number you want to use?: ")
+        c = input("Third number you want to use?: ")
+        try: 
+            print (items[int(a)] + items[int(b)] + items[int(c)]) 
+        except IndexError:
+            print ("Values can only be from 0 through 9! Please try again")
+    elif choiceA == "N" or choiceA == "n":
+        print("Shutting down......")
+        sys.exit()
 
 
 """
